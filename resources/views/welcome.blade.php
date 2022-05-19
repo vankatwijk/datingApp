@@ -78,6 +78,49 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+        
+        
+        
+        
+.nicebtn{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.nicebtn span{
+  position: relative;
+  z-index: 2;
+}
+
+.nicebtn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+.nicebtn:hover{
+  color: #fff;
+}
+
+.nicebtn:hover:after{
+  width: 100%;
+}
     </style>
 </head>
 <body>
@@ -92,12 +135,12 @@
         <div class="links">
             @if (Route::has('login'))
                 @auth
-                    <a href="{{ url('/home') }}">Home</a>
+                    <a class="nicebtn" href="{{ url('/home') }}">Home</a>
                 @else
-                    <a href="{{ route('login') }}">Login</a>
+                    <a class="nicebtn" href="{{ route('login') }}">Login</a>
 
                     @if (Route::has('register'))
-                        <a href="{{ route('register') }}">Register</a>
+                        <a class="nicebtn" href="{{ route('register') }}">Register</a>
                     @endif
                 @endauth
             @endif
