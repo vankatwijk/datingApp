@@ -12,7 +12,6 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #fff;
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -80,13 +79,23 @@
     <div class="content">
         <div class="title m-b-md">
             Date Malta
+            <small>
             <p>
             Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
             </p>
             <p>
             FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
             </p>
+            </small>
         </div>
+        <small>
+            <p>
+            Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
+            </p>
+            <p>
+            FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
+            </p>
+        </small>
         <div class="links">
             @if (Route::has('login'))
                 @auth
