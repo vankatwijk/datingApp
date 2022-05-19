@@ -37,9 +37,27 @@
         }
         .content {
             text-align: center;
+            
+        }
+        .coverimg {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            background: #232a34;
+            position: absolute;
+            z-index: -1;
+            background-image: url(https://www.schengenvisainfo.com/news/wp-content/uploads/2022/02/The-bars-in-St-Lucia-street-Valletta-Malta.jpg);
+            filter: blur(7px);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
         }
         .title {
             font-size: 84px;
+        }
+        .links{
+            background:white;
         }
         .links > a {
             color: #636b6f;
@@ -58,10 +76,16 @@
 <body>
 <div class="flex-center position-ref full-height">
 
-
+    <div class="coverimg"></div>
     <div class="content">
         <div class="title m-b-md">
-            Date Malta App
+            Date Malta
+            <p>
+            Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
+            </p>
+            <p>
+            FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
+            </p>
         </div>
         <div class="links">
             @if (Route::has('login'))
