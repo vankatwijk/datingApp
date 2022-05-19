@@ -3,6 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="date malta">
+    <meta name="description" content="Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit. FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.">
+    <meta name="keywords" content="dating, malta dating, singles malta, women in malta, dating in malta, dating in sliema,dating in valleta,dating in st julians">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="20 days">
+
 
     <title>Date Malta</title>
 
@@ -76,26 +84,11 @@
 <div class="flex-center position-ref full-height">
 
     <div class="coverimg"></div>
+    
     <div class="content">
         <div class="title m-b-md">
             Date Malta
-            <small>
-            <p>
-            Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
-            </p>
-            <p>
-            FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
-            </p>
-            </small>
         </div>
-        <small>
-            <p>
-            Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
-            </p>
-            <p>
-            FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
-            </p>
-        </small>
         <div class="links">
             @if (Route::has('login'))
                 @auth
@@ -108,6 +101,15 @@
                     @endif
                 @endauth
             @endif
+            
+            <small>
+                <p>
+                Malta. Check out the dating scene in one of the best places to meet new people: Malta. Whether you live here or plan to go for a visit.
+                </p>
+                <p>
+                FREE to Join & Browse - 1000's of Singles in Malta - Interracial Dating, Relationships & Marriage Online.
+                </p>
+            </small>
             
             <p class="fh5co-copyright">
 			    <small>
